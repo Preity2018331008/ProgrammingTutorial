@@ -1,0 +1,150 @@
+.hPage{
+    -fx-background-image:url("algo_boro.png");
+    -fx-background-size: stretch;
+}
+.splash{
+    -fx-background-image:url("algosecond.png");
+    -fx-background-size: stretch;
+}
+.vb{
+    -fx-background-color: #ccffff;
+}
+.hb{
+    -fx-background-image:url("background.jpg");
+    -fx-background-size: stretch;
+    -fx-background-color: blue;
+}
+.sp{
+    -fx-background-color: #66ffff;
+    -fx-background:#66ffff;
+}
+
+.rt{
+    -fx-background-color: #66ffff;
+    -fx-background:#66ffff;
+}
+.button {
+    -fx-border-width:3px;
+    -fx-border-color: #006080;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-font-weight: bolder;
+    -fx-width: 100%;
+    -fx-background-color: #0086b3;
+    -fx-padding: 15px 32px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-text-fill : #b3ecff;
+    -fx-font-size: 18px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.text-field{
+   -fx-font-size: 19;
+   -fx-padding: 8,8,8,8;
+   -fx-border-color: #006080;
+   -fx-background-radius: 8;
+   -fx-border-width: 2;
+   -fx-border-radius: 8;
+   -fx-border: gone;
+   -fx-background-color: #b3ecff;
+   -fx-text-fill: #006080;
+}
+
+
+
+
+.button:hover {
+  -fx-background-color: #b3ecff ;
+  -fx-text-fill :#0086b3 ;
+  -fx-cursor: hand;
+}
+
+.button: disabled {
+  -fx-opacity: 0.6;
+  -fx-cursor: not-allowed;
+}
+
+.lbl {
+    -fx-text-fill : #0086b3;
+    -fx-font-size: 25;
+    -fx-font-weight: bolder;
+}
+
+
+.text-area {
+    -fx-background-radius: 8;
+    -fx-border-width: 2;
+    -fx-border-radius: 8;
+    -fx-border: gone;
+    -fx-border-color: #006080;
+    -fx-font-family: Consolas;
+    -fx-font-size: 20;
+    -fx-text-fill: #0086b3;
+    -fx-display-caret:true;
+}
+
+.text-area .content {
+    -fx-background-color: #b3ecff;
+}
+
+
+
+
+
+
+.layout{
+
+}
+.lftLbl{
+
+    -fx-text-fill: #0086b3;
+    -fx-font-size: 50px;
+}
+.loginRht{
+    -fx-background-color: #ccffff;
+    -fx-alignment: CENTER_LEFT;
+}
+.loginLft{
+    -fx-alignment: center;
+    -fx-background-image: url("algo_login.png");
+}
+.formLabel{
+    -fx-text-fill: #0086b3;
+    -fx-font-size:25px;
+    -fx-padding: 10px;
+}
+.padd{
+    -fx-padding: 100 100 100 100;
+}
+
+
+
+.tab {
+  -fx-font-family: Arial;
+  -fx-text-fill: -fx-text-base-color;
+  -fx-font-size: 18;
+  -fx-background-color:royalblue ;
+}
+
+.tab:selected {
+-fx-text-fill: #ccffff;
+    -fx-background-color:#0086b3 ;
+}
+
+
+.blogcap{
+    -fx-text-fill: #0086b3;
+    -fx-font-size:55px;
+    -fx-padding: 10px;
+}
+.blogbody{
+     -fx-text-fill: #0086b3;
+     -fx-font-size:25px;
+     -fx-padding: 10px;
+ }
+.blogbody2{
+     -fx-text-fill: white;
+     -fx-font-size:25px;
+     -fx-padding: 10px;
+ }
